@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/bash
 print("Best School")
 
 export PYFILE=main.py
