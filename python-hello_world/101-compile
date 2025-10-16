@@ -1,7 +1,8 @@
-#!/bin/bash
-import os
-PYFILE= os.environ.get('PYFILE')
-os.system(f"python3 -m compileall {PYFILE}")
-Compiled_file = f"{PYFILE[:-3].PYC}"
-print(f"compiling {PYFILE} .......")
-print(f"The compiled file is: {compiled_file}")
+#!/usr/bin/python3
+print("Best School")
+
+export PYFILE=main.py
+./101-compile
+ls
+cat main.pyc | zgrep -c "Best School"
+od -t x1 main.pyc
