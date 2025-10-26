@@ -1,11 +1,5 @@
 #!/usr/bin/python3
 def divisible_by_2(my_list=[]):
-    results = []
-    for i in range(len(my_list)):
-        if i % 2 == 0:
-            results.append(True)
-        else:
-            results.append(False)
-     return results
-        
-
+    while i < len(list_result):
+    print("{:d} {:s} divisible by 2".format(my_list[i], "is" if list_result[i] else "is not"))
+    i += 1
