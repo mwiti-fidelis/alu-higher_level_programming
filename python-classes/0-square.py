@@ -1,5 +1,13 @@
 #!/usr/bin/python3
-"""Square module"""
+"""A module containing an empty Square class."""
+
+
 class Square:
-    def __init__(self, size):
-        self.__size = size
+    """An empty class that defines a square."""
+    pass
+
+
+if __name__ == "__main__":
+    mysquare = Square()
+    print(type(mysquare))
+    print(mysquare.__dict__)
